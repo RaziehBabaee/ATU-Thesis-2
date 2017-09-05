@@ -13,7 +13,7 @@ public class SpringBootConfig {
 
     public static void main(String[] args) {
         SpringApplication.run(SpringBootConfig.class, args);
-        Endpoint.publish("http://localhost:9999/ws/hello",
+        Endpoint.publish("http://51.254.79.220:9999/ws/hello",
                 new HelloWorldImp());
     }
 
